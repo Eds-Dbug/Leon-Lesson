@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="nav-div">
+      <nav id="navigation">
+        <img src="" alt="">
+        <button type="button"><a class="nav-link" href=""></a></button>
+        <button type="button"><a class="nav-link" href=""></a></button>
+        <button type="button"><a class="nav-link" href=""></a></button>
+        <button type="button"><a class="nav-link" href=""></a></button>
+        <button type="button"><a class="nav-link" href=""></a></button>
+        <button type="button"><a class="nav-link" href=""></a></button>
+        <button type="button"><a class="nav-link" href=""></a></button>
+        <button type="button"><a class="nav-link" href=""></a></button>
+        <button type="button"><a class="nav-link" href=""></a></button>
+        <button type="button">
+          <select id="more">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+        </button>
+        <input type="text" placeholder="search">
+      </nav>
+    </div>
+    
+    <section id="welcome-section">
+      <h2 id="welcome">Welcome to BBC.com</h2>
+      <h2 id="date"></h2>
+      <div id="img-grid">
+        <div class="big-img"></div>
+        <div class="small-img"></div>
+        <div class="small-img"></div>
+        <div class="small-img"></div>
+        <div class="small-img"></div>
+      </div>
+    </section>
+    
+    <section id="news">
+      <h2 id="news-heading">News</h2>
+      <div class="headline">
+        <h1></h1>
+        <p></p>
+        <footer></footer>
+      </div>
+      <div class="headline">
+        <h1></h1>
+        <p></p>
+        <footer></footer>
+      </div>
+      <div class="headline">
+        <h1>Biden is </h1>
+        <p></p>
+        <footer></footer>
+      </div>
+    </section>
+  </body>
+</html>
+  
