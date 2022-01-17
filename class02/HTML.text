@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="assets/">
+        <meta charset="utf-8">
+        <title>Welcome to BBC</title>
+    </head>
+  <body>
+    <div id="nav-div">
+      <nav id="navigation">
+        <img src="" id="bbc-logo" alt="BBC">
+        <button type="button" class="sign-btn">Sign In<a class="nav-link" href=""></a></button>
+        <button type="button" class="bar-btn" value="Home">Home<a class="nav-link" href=""></a></button>
+        <button type="button" class="bar-btn" value="News">News<a class="nav-link" href=""></a></button>
+        <button type="button" class="bar-btn" value="Sport">Sport<a class="nav-link" href=""></a></button>
+        <button type="button" class="bar-btn" value="Reel">Reel<a class="nav-link" href=""></a></button>
+        <button type="button" class="bar-btn" value="Worklife">Worklife<a class="nav-link" href=""></a></button>
+        <button type="button" class="bar-btn" value="Travel">Travel<a class="nav-link" href=""></a></button>
+        <button type="button" class="bar-btn" value="Future">Future<a class="nav-link" href=""></a></button>
+        <button type="button" class="bar-btn" value="Culture">Culture<a class="nav-link" href=""></a></button>
+        <button type="button" class="more-btn" value="more">
+          <select id="more">
+            <option value="More">More</option>
+            <option value="Tea">Tea<a class="drop-link" href=""></a></option>
+            <option value="Crumpets">Crumpets<a class="drop-link" href=""></a></option>
+            <option value="Scones">Scones<a class="drop-link" href=""></a></option>
+          </select>
+        </button>
+        <input type="text" id="search" placeholder="search">
+      </nav>
+    </div>
+    
+    <section id="welcome-section">
+      <h2 id="welcome">Welcome to BBC.com</h2>
+      <h2 id="date"></h2>
+      <div id="img-grid">
+        <div class="big-img"><a href="https://www.w3schools.com">
+          <img src="">
+           <div class="bg-content">
+            <h1>Heading</h1>
+            <p>Lorem ipsum..</p>
+           </div>
+        </a></div>
+        <div class="small-img">
+          <a href="https://www.w3schools.com">
+            <img src="">
+              <div class="content">
+                <h1>Heading</h1>
+                <p>Lorem ipsum..</p>
+              </div>
+        </a></div>
+        <div class="small-img">
+          <a href="https://www.w3schools.com">
+          <img src="">
+           <div class="content">
+            <h1>Heading</h1>
+            <p>Lorem ipsum..</p>
+           </div>
+        </a></div>
+        <div class="small-img">
+          <a href="https://www.w3schools.com">
+          <img src="">
+           <div class="content">
+            <h1>Heading</h1>
+            <p>Lorem ipsum..</p>
+           </div>
+        </a></div>
+        <div class="small-img">
+         <a href="https://www.w3schools.com">
+          <img src="">
+           <div class="content">
+            <h1>Heading</h1>
+            <p>Lorem ipsum..</p>
+           </div>
+         </a></div>
+      </div>
+    </section>
+    
+    <section id="news">
+      <h2 id="news-heading">News</h2>
+      <div class="headline">
+        <a href="https://www.w3schools.com">
+         <div class="news-content">
+          <h1>Biden is </h1>
+          <p></p>
+          <footer></footer>
+          </div>  
+        </a>
+      </div>
+      <div class="headline">
+        <a href="https://www.w3schools.com">
+          <div class="news-content">
+            <h1>Biden is </h1>
+            <p></p>
+            <footer></footer>
+          </div>  
+        </a>  
+      </div>
+      <div class="headline">
+        <a href="https://www.w3schools.com">
+          <div class="news-content">
+            <h1>Biden is </h1>
+            <p></p>
+            <footer></footer>
+          </div>  
+        </a>  
+      </div>
+    </section>
+  </body>
+</html>
+  

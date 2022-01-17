@@ -1,0 +1,34 @@
+#navigation{
+  display:flex;
+  flex-direction:row;
+  justify-content:left;
+  border:solid;
+}
+
+#bbc-logo{
+  font-size:20px;
+}
+
+#search{
+  width:15vw;
+}
+
+.sign-btn{
+  width:10vw;
+}
+
+.bar-btn{
+  width:7.4vw;
+}
+
+.more-btn{
+  width:10vw;
+}
+
+.more-btn #more{
+  width:100%;
+}
+
+.nav-link{
+  
+}
