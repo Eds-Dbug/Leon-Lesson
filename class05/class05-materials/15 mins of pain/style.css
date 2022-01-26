@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+header,footer{
+    height: 100px;;
+    border: 2px solid;
+    clear:both;
+}
+
+section{
+    width: 33.33%;
+    height: 300px;
+    border:1px solid;
+    float:left;
+}
+
+/* this works
+#left,#middle,#right{
+    width: 33.33%;
+    height: 300px;
+    border:1px solid;
+}
+
+#left{
+float: left;
+}
+
+#right{
+    float:right;
+} */
+
+

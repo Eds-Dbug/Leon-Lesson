@@ -1,0 +1,6 @@
+remember cascading;
+Ruless, declaration blocks , delcarations > property and values.
+
+-can do p+p{//something} for direct sibling.
+- remember the !important tag
+-the cascade and points always works However specificity also works.
