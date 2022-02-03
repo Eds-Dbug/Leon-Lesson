@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /*
+      @media not|only mediatype and (mediafeature and|or|not mediafeature) {
+       CSS-Code;} 
+  */
+  
+  @media screen and (any-hover: hover) {
+    header:hover,
+    footer:hover {
+      background: navy;
+    }
+    .small:hover {
+      background: red;
+    }
+    .big:hover {
+      background: green;
+    }
+  }
+  
+  body {
+    color: white;
+    text-align: center;
+  }
+  
+  header,
+  footer,
+  div {
+    border: 1px solid black;
+  }
+  
+  header,
+  footer {
+    height: 10vh;
+    clear: both;
+  }
+  
+  .small {
+    height: 20vh;
+    width: 33.33%;
+    float: left;
+  }
+  
+  .big {
+    height: 30vh;
+    width: 50%;
+    float: left;
+  }
+  
+  @media all and (max-width: 900px){
+    body {
+      height: 100vh;
+      background: darkred;
+      color:darkred;
+    }
+  }
+  
+  @media all and (max-width: 800px) {
+    body {
+      height: 100vh;
+      background: red;
+      color: red;
+    }
+    .big,
+    .small {
+      width: 100vw;
+      height: 20vh;
+      float: none;
+    }
+  }
+  
+  @media all and (max-width: 600px){
+    body{
+      background:yellow;
+      color: yellow;
+    }
+    .big,header,footer,
+    .small {
+      border:none;
+    }
+  }
+  
+  
+  

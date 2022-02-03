@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer,div{
+    border: 1px solid black;
+}
+
+header,footer{
+    height:100px;
+    clear: both;
+}
+
+header + div{
+    height: 200px;
+}
+
+header + div + div{
+    height: 300px;
+    width: 40%;
+    float:left;
+}
+
+header + div + div + div{
+    height: 300px;
+    width: 60%;
+    float:left;
+}

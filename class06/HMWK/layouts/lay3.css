@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+header,div,footer{
+    border: 1px solid black;
+}
+
+header,footer{
+    height:100px;
+    clear: both;
+}
+
+div{
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+
+#big{
+    width:40%;
+}
+
