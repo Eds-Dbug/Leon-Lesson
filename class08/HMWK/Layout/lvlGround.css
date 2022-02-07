@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+header > *{
+    float:left;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+header > nav,button {
+    width: 20%;
+    border:1px solid;
+}
+
+header > img{
+    width: 60%;
+    border:1px solid;
+    text-align: center;
+}
+
+.grit{
+    background-color: rgb(67, 103, 116);
+    color: white;
+    text-align: center;
+}
+
+.visit{
+    background-color: rgb(213, 213, 228);
+    overflow: hidden;
+}
+
+.visits{
+    float:left;
+    padding: 0 10%;
+    width: 50%;
+    text-align: center; 
+}
+
+.visits button{
+    height:50px;
+    width: 100px;
+}
+
+.footer{
+    background-color: rgb(6, 6, 26);
+    color:white;
+}
+
+.tags{
+    
+}
+
+
