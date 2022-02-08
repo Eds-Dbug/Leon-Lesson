@@ -68,6 +68,13 @@ a{
     text-align: center; 
 }
 
+.visits div{
+    margin: auto;
+    height: 150px;
+    width: 300px;
+    background-color: blueviolet;
+}
+
 .visits button{
     height:50px;
     width: 100px;
