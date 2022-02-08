@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  color: rgb(37, 46, 63); 
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(37, 46, 63);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+header > *{
+    float:left;
+    overflow: hidden;
+}
+
+.logo{
+    border:none;
+    margin-left: 2%; 
+}
+
+.nav{
+    overflow: hidden;
+    position:absolute;
+    right: 30%;
+    left: 30%;
+}
+nav a{
+    margin-right: 10%;
+    float: left;
+}
+
+.navButton{
+    float: right;
+    margin-right: 2%;
+}
+
+.firstChunk{
+    margin:10% 0 0 10%;
+    clear: left;
+    overflow: hidden;
+}
+
+
+
+.imgDiv{
+    margin-left: 42%;
+}
+
+.tagline,.imgDiv{
+    float: left;
+}
+
+.secondChunk{
+    padding: 0 6%;
+    overflow: hidden;
+}
+
+.feature{
+    float:left;
+    width:25%;
+    height: 100%;
+}
+
+.footerChunk{
+    overflow: auto;
+    margin:5% 0 0 10%;
+}
+
+.greyBlk{
+    height: 60px;
+    width:70%;
+    margin-left: 15%;
+    background-color: lightgrey;
+}
+
