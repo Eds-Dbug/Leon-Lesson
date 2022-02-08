@@ -2,29 +2,58 @@
     box-sizing: border-box;
 }
 
+.headGrit{
+    background-color: rgb(67, 103, 116);
+    height: 50vh;
+}
+
+header{
+    overflow: auto;
+}
+
 header > *{
     float:left;
+}
+
+nav{
+    text-decoration: none;
 }
 
 h1,h3{
     text-align: center;
 }
 
+
 header > nav,button {
     width: 20%;
-    border:1px solid;
+    text-align: center;
 }
 
-header > img{
-    width: 60%;
-    border:1px solid;
+
+.donate{
+    float: right;
+}
+
+header > .pic{
+    display: block;
+    margin-left: 28%;
+}
+
+.why{
+    height: 40vh;
     text-align: center;
 }
 
 .grit{
+    margin-top: 2.5%;;
     background-color: rgb(67, 103, 116);
     color: white;
     text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
 }
 
 .visit{
@@ -44,13 +73,40 @@ header > img{
     width: 100px;
 }
 
-.footer{
-    background-color: rgb(6, 6, 26);
-    color:white;
+.volunteer{
+    text-align: center;
+    height: 40vh;
 }
 
 .tags{
+    width: 10%;
+    color: white;
+    float: left;
+}
+
+.footer{
+    background-color: rgb(6, 6, 26);
+    color:white;
     
 }
 
+.tandc{
+    overflow: hidden;
+}
+
+.contact{
+    height: 100%;
+    float: right;
+}
+
+.footsies{
+    border-top:2px solid white;
+    overflow: auto;
+}
+
+
+
+.logoFooter{
+    float: right;
+}
 
