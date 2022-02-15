@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+/* border: 1px solid black; */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Gideon Roman', cursive;
+}
+
+.welcome{
+    overflow: auto;
+    background: lightblue url('./pics/bowl-of-fresh-fruit-on-white-wooden-background-royalty-free-image-1626101506.jpg')  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.welcome > img{
+    width: 150px;
+}
+
+.nav{
+    width: 50%;
+    margin-left:30% ;
+    float: right;
+}
+
+.nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav *{
+    padding: 1%;
+}
+
+.welcomeDiv{
+    font-size: 40px;
+}
+
+/* .welcomeDiv > form{
+    border: 1px solid black;
+} */
+
+.welcomeDiv > form > input + input{
+    width: 100px;
+    background-color: orange;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.likes{
+    margin-top: 1%;
+}
+
+.likes > i{
+    padding-right: 1%;
+    color: orange;
+}
+
+.discover{
+    background: lightcyan url('./pics/pie.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    overflow: hidden;
+}
+
+.About-us{
+    float: right;
+    margin-top: 5vh;
+    margin-right:6% ;
+}
+
+.About-us > h5{
+    color: orange;
+    margin-bottom: -5% ;
+}
+
+.h1discover{
+    font-size: 35px;
+}
+
+.discover-menu{
+    width: 150px;
+    background-color: orange;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.specialty >  h5{
+    color: orange;
+    margin-bottom: -1% ;
+}
+
+.specialty > h1{
+    font-size: 35px;
+}
+
+.specialty nav{
+    margin-bottom: 4%;
+}
+
+.specialty h5,h1,nav{
+    text-align: center;
+}
+
+.specialty > nav li{
+    display: inline;
+    padding-right: 1%;
+}
+
+.specialty > nav li a{
+    text-decoration: underline;
+    color: rgb(7, 7, 39);
+}
+
+.opening h6{
+    color: orange;
+    margin-bottom: -1%;
+}
+
+.opening h6,h1{
+    text-align: center;
+}
+
+.call{
+    text-align: center;
+}
+
+.call > i{
+    color: green;
+    font-size: 20px;
+}
+
+.mon-tues{
+    float:left;
+}
+
+.fri-sat{
+    float: right;
+}
+
+.bookFood-img{
+    margin:10% 0;
+}
+
+.customer{
+    text-align: center;
+}
+
+.customer > h5{
+    color: orange;
+    margin-bottom: -1%;
+}
+
+.customer > h1{
+    font-size: 30px;
+}
+
+.customer > p{
+    font-style: italic;
+}
+
+.john > img{
+    width: 10%;
+}
+
+.john > h5{
+    font-size: 20px;
+    margin: -0.2% 0 -1%;
+}

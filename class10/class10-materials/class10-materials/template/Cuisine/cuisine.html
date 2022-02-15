@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cuisine.css"/>
+
     <title>Document</title>
 </head>
 <body>
+
     <section class="welcome">
         <img src="./pics/logo.png" alt="Logo"/>
         <nav class="nav">
@@ -18,26 +21,28 @@
             <a href="#">Blog</a>
             <a href="#">Location</a>
             <i class="fa fa-shopping-cart"></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa fa-search"></i>
         </nav>
         <div class="welcomeDiv">
-            <h1>Welcome To Our Cuisine Restautant</h1>
+            <h1>Welcome<br/> To Our Cuisine<br/>  Restautant</h1>
             <form>
                 <input type="text" placeholder="Search here"/>
                 <input type="button" value="Location"/>
             </form>
         </div>
         <div class="likes">
-            <i class="fa fa-facebook">252k</i>
-            <i class="fa fa-twitter">252k</i>
-            <i class="fa fa-instagram">252k</i>
+            <i class="fa fa-facebook"><span style="color: black;"> 252k</span></i>
+            <i class="fa fa-twitter"><span style="color: black;"> 62k</span></i>
+            <i class="fa fa-instagram"><span style="color: black;"> 55k</span></i>
         </div>
     </section>
+
     <section class="discover">
         <section class="About-us">
-            <h2 class="discover">
+            <h5>About Us</h5>
+            <h1 class="h1discover">
                 Discover Our Restaurant Story
-            </h2>
+            </h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
                 In urna massa, dictum sit amet quam ut, accumsan fringilla<br/> 
@@ -53,8 +58,9 @@
             <button class="discover-menu">Discover Menu</button>
         </section>
     </section>
+
     <section class="specialty">
-        <h6>Order Online Now</h6>
+        <h5>Order Online Now</h5>
         <h1>Our Specialty Cuisine</h1>
         <nav>
             <li><a href>Breakfast</a></li>
@@ -64,15 +70,17 @@
             <li><a href>Shake</a></li>
         </nav>
         <div>
-            <img src="./pics/breakfast.jpg" alt="breakfast"/>
-            <img src="./pics/breakfast2.jpg" alt="breakfast2"/>
-            <img src="./pics/breakfast3jpg.jpg" alt="breakfast3"/>
-            <img src="./pics/breakfast4.jpg" alt="breakfast4"/>
-            <img src="./pics/breakfast5.jpg" alt="breakfast5"/>
-            <img src="./pics/breakfast6.jpg" alt="breakfast6"/>
-            <img src="./pics/breakfast7.jpg" alt="breakfast7"/>
+            <img class="breakfast" src="./pics/breakfast.jpg" alt="breakfast"/>
+            <img class="breakfast" src="./pics/breakfast2.jpg" alt="breakfast2"/>
+            <img class="breakfast" src="./pics/breakfast3jpg.jpg" alt="breakfast3"/>
+            <img class="breakfast" src="./pics/breakfast4.jpg" alt="breakfast4"/>
+            <img class="breakfast" src="./pics/breakfast5.jpg" alt="breakfast5"/>
+            <img class="breakfast" src="./pics/breakfast6.jpg" alt="breakfast6"/>
+            <img class="breakfast" src="./pics/breakfast7.jpg" alt="breakfast7"/>
         </div>
+        <br/>
     </section>
+
     <section class="opening">
         <h6>Book Table</h6>
         <h1>OPENING HOURS</h1>
@@ -80,11 +88,45 @@
             <i class="fa fa-whatsapp"><a class="whatsapp"></a></i>
             <h6>Call Now</h6>
             <h1>+12345678910</h1>
-        </div>
-        <div>
-            
+            <section class="bookFood">
+                <div class="mon-tues">
+                    <p>
+                        Monday to Tuesday<br/>
+                        <span>0:900 am-22:00 pm</span>
+                    </p>
+                </div>
+                <div class="fri-sat">
+                    <p>
+                        Friday to Saturday<br/>
+                        <span>11:00 am-20:00 pm</span>
+                    </p>
+                </div>
+            </section>
+            <div class="bookFood-img">
+                <img src="./pics/food on Book.jpg" alt="foodOnBook">
+            </div>
         </div>
     </section>
-    <section class="customer"></section>
+    <br/>
+    <section class="customer">
+        <h5>Testimonials</h5>
+        <h1>Customer Say</h1>
+        <div class="john">
+            <img src="./pics/guy.jpg" alt="Some Guy"/>
+            <h5>Mr John Smith</h5>
+            <p class="art-director">Art Director</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-empty checked"></span>
+        </div>
+        <p>
+            Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic
+            and white wine <br/> sauce. Cuisine is a team work of Cuisine Restaurant Cafe.
+            We aim at promoting the foodstuff <br/> industry througgh the branches, we
+            establish and through the new dishes.
+        </p>
+    </section>
 </body>
 </html>
