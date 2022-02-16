@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Gideon+Roman&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Gideon Roman', 'cursive';
+}
+
+.navigation{
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.navigation * {
+    display: inline;
+}
+
+.nav{
+    margin-left: 8%;
+}
+
+.nav > h5{
+    margin-left: 10%;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav *{
+    padding: 1%;
+}
+
+.main{
+    background: url('./pics/hair-salon-beauty-woman-long-healthy-shiny-smooth-blac-36824999.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200vh;
+}
+
+.clickBait{
+    margin: 0 0 0 8%;
+}
+
+.clickBait > h1{
+    font-size: 40px;
+}
+
+.clickBait > button{
+    background-color: black;
+    color: white;
+}
+
+.firstVisit{
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    width: 12%;
+    padding: 0.8%;
+}
+
+.firstVisit > button{
+    border-radius: 0%;
+}
+
+.experts{
+    overflow: auto;
+    padding-left: 24%;
+}
+
+.services{
+    width: 20%;
+    margin:0 2%;
+    float: left;
+    text-align: center;
+}
+
+
+.momemtum{
+    background-color: rgb(43, 228, 228);
+    overflow: auto;
+    padding: 0 10%;
+}
+
+.make{
+    float: left;
+}
+
+.make > button{
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+.video{
+    float: right;
+}
