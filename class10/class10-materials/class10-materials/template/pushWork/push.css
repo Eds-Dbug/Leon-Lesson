@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        background-color: red;
+    }
+}
+
+.brand{
+    color: paleturquoise;
+    background: url('./Background/landing-page-banner-background-sm.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.navigation > nav{
+    float: right;
+    padding-right: 5%;
+    width: 50%;
+}
+
+.navigation > nav > button{
+    color: white;
+    background-color:rgb(117, 150, 221);
+    border-radius: 20px;
+    width:100px;
+    height:50px;
+}
+
+.navigation > nav a{
+    text-decoration: none;
+    color: paleturquoise;
+    padding-right: 5%;
+}
+
+.inject{
+    float:left ;
+    width: 50%;
+    margin-left:10% ;
+}
+
+.inject button{
+    height: 40px;
+    border-color: rgb(54, 156, 190);
+    border-radius: 20px;
+    background-color: rgb(54, 156, 190);
+    color: white;
+
+}
+.inject > button{
+    color: darkblue;
+    background-color: white;
+}
+
+#comp{
+    font-size:400px;
+    color: darkbkue;
+    float: left;
+}
+
+.injectFooter{
+    padding-top: 8vh;
+    padding-left: 20px;
+    color:darkcyan;
+    float: right;
+    width: 100%;
+}
+
+.injectFooter i{
+    padding-left: 5%;
+}
+
+.manyDivs{
+    background: url('./Background/reverse.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.howCanWeHelp{
+    margin-top: 10%;
+    margin-left: 10%;
+    overflow: auto;
+}
+
+.help{
+    width: 50%;
+    float: left;
+}
+
+.help > h6{
+    margin-bottom: -2%;
+}
+
+.howCanWeHelp >  section > h4{
+    font-size: 25px;
+}
+
+.howCanWeHelp > section  h6,p{
+    color: grey;
+    font-size: 15px;
+}
+
+.help > button {
+    height: 40px;
+    border-color: rgb(54, 156, 190);
+    border-radius: 20px;
+    background-color: darkblue;
+    color: white;
+}
+
+.digi{
+    width:50%;
+    float: right;
+}
+
+.boxDiv{
+    float: left;
+    width: 40%;
+    margin-right:3% ;
+}
+
+.box{
+    background-color: aqua;
+    width:100%;
+    height:60%;
+    margin-bottom: 15%;
+    border: 1px solid rgb(3, 3, 44);
+    float: left;
+    text-align: center;
+}
+
+.img{
+    padding-top: 20%;
+}
+
+.txt{
+    background-color: white;
+    padding-bottom: 3%;
+}
+
+.txt > h6{
+    margin-bottom: -5%;
+}
+
+.solutions{
+    overflow: auto;
+    margin-bottom: 5%;
+}
+
+.solutionIMG{
+    float:left ;
+    width: 40%;
+    height: 80vh;
+    background-color: rgb(13, 180, 180);
+    text-align: center;
+    margin-right: 10%;
+}
+
+.img{
+    width: 35%;
+    height: 20%;
+    background-color: rgb(7, 7, 56);
+    color: white;
+    margin: 0 0 0 33%;
+}
+
+.solutionTxt{
+    float: left;
+}
+
+.solutionTxt > h1{
+    font-size: 30px;
+}
+
+.solutionTxt h6, p{
+    color: grey;
+}
+
+.solutionTxt > button{
+    height: 40px;
+    color: white;
+    background-color: rgb(7, 7, 56);
+    border-radius: 20px;
+}
+
+.createAccount{
+    overflow: auto;
+}
+
+.underneath {
+    text-align: center;
+}
+
+.underneath > button{
+    height: 40px;
+    color: white;
+    background-color: rgb(7, 7, 56);
+    border-radius: 20px;
+}
+
+.account > h5{
+    color: gray;
+    margin-bottom: -2%;
+}
+
+.account > h3{
+    font-size: 40px;
+}
+
+.manyDivs{
+    overflow: auto;
+}
+
+.badDivs{
+    width: 33%;
+    float: left;
+    overflow: auto;
+}
+
+.badDivs > h5{
+    display: inline;
+}
+
+.order button{
+    height: 40px;
+    color: white;
+    background-color: rgb(7, 7, 56);
+    border-radius: 20px;
+}
+
+.standpoint{
+    overflow: auto;
+}
+
+.Theron{
+    text-align: center;
+}
+
+.t {
+    margin-left: 40%;
+    width: 20%;
+}
+
+.cTheron{
+    border-radius: 50px;
+    width: 40px;
+    height:40px;
+    background-color: grey;
+}
+
+.order{
+    background-color: rgb(7, 7, 56);
+    color: white;
+    overflow: auto;
+}
+
+.order > h2{
+    float: left;
+    margin-right: 20%;
+}
+
+.order button{
+    float: left;
+}
+
+.order > button{
+    background-color: gray;
+    margin-right: 2%;
+}
+
+.order > button + button{
+    color: white;
+    background-color: rgb(7, 7, 56);
+}
+
+footer > section{
+    width: 12%;
+    float: left;
+    margin-right: 10%;
+}
+
+footer > section > a{
+    text-decoration: none;
+    color: gray;
+}
