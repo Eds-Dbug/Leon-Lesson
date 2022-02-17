@@ -5,6 +5,11 @@
     font-family: 'Gideon Roman', 'cursive';
 }
 
+button{
+    background-color: black;
+    color: white;
+}
+
 .navigation{
     background-color: whitesmoke;
     overflow: hidden;
@@ -46,10 +51,10 @@
     font-size: 40px;
 }
 
-.clickBait > button{
+/* .clickBait > button{
     background-color: black;
     color: white;
-}
+} */
 
 .firstVisit{
     margin-top: 5%;
@@ -95,3 +100,66 @@
 .video{
     float: right;
 }
+
+.hotties{
+    padding: 2% 10%;
+    padding-left: 15%;
+    overflow: auto;
+}
+
+.name{
+    margin:0 5% ;
+    width:200px;
+    height:300px;
+    position: relative;
+    float:left;
+}
+
+.name > div{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white; 
+    position: absolute; 
+    bottom: 0;
+}
+
+#name1{
+    background: url('./pics/t-kendall-jenner-enraged-models.webp');
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+}
+
+#name2{
+    background: url('./pics/gettyimages-458406992-1538405221.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+}
+
+#name3{
+    background: url('./pics/images.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+}
+
+.ad{
+    background: url('./pics/d12a0d17165c54b8c014ff86dad9b39c-750x500.jpg');
+    background-repeat: no-repeat;
+    margin-left: 20%;
+}
+
+.lookbook{
+    width: 50%;
+    margin:10% 25%;
+}
+
+.lookbook div{
+    width: 33%;
+    float:left;
+}
+
+.lookbook div img{
+    width: 100%;
+    height:auto;
+}
+
