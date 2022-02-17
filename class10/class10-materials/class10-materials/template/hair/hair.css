@@ -5,6 +5,12 @@
     font-family: 'Gideon Roman', 'cursive';
 }
 
+@media screen and (max-width: 500px) {
+    body{
+        background-color: red;
+    }
+}
+
 button{
     background-color: black;
     color: white;

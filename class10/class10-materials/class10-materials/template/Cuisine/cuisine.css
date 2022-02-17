@@ -8,6 +8,13 @@
     font-family: 'Gideon Roman', cursive;
 }
 
+
+@media screen and (max-width: 500px) {
+    body{
+        background-color: red;
+    }
+}
+
 .welcome{
     overflow: auto;
     background: lightblue url('./pics/bowl-of-fresh-fruit-on-white-wooden-background-royalty-free-image-1626101506.jpg')  ;
