@@ -1,16 +1,14 @@
-document.querySelector('#check').addEventListener('click', check)
+document.querySelector('#check').addEventListener('click', check);
 
 function check() {
+	const day = document.querySelector('#day').value.toUpperCase();
 
-  const day = document.querySelector('#day').value
-
-  //Conditionals go here
-  if(day === "Tuesday" || day === "Thursday" ){
-    alert('CLASS DAY!')
-  }else if(day === "Saturday" || day === "Sunday"){
-    alert('Weekend!')
-  }else{
-    alert('BORRRRRRINNNNNGGGGG!!!')
-  }
-
+	//Conditionals go here
+	if (day === 'TUESDAY' || day === 'THURSDAY') {
+		document.querySelector('#placeToSee').innerText = 'CLASS DAY!';
+	} else if (day === 'SATURDAY' || day === 'SUNDAY') {
+		document.querySelector('#placeToSee').innerText = 'Weekend!';
+	} else {
+		document.querySelector('#placeToSee').innerText = 'BORRRRRRINNNNNGGGGG!!!';
+	}
 }
